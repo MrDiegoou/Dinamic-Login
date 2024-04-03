@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: wheat;
+    border: 4px solid black; /* Añadí un borde negro al contenedor principal */
+}
+
+.box{
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+
+    
+    border: 2px solid  black;
+    
+}
+
+.qr-header h1{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.qr-header input{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto 12px auto;
+    margin-bottom: 12px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+
+.qr-header label{
+    
+    color: black;
+    font-size: 1.2em;
+}
+
+.qr-header div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.qr-footer{
+    display: flex;
+    justify-content: center;
+}
+.qr-footer a{
+    background:white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 14px 36px;
+    margin-inline: 2px;
+    color: black;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 17px;
+}
+
+.qr-body{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.qr-body img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 0.5px solid ;
+    border: 2px solid black ;
+    border-radius: 6%;
+}
+
+@media screen and (max-width:520px){
+    .box{
+        width: 80%;
+    }
+    .qr-footer a{
+        padding: 12px;
+        font-size: 1em;
+    }
+}
