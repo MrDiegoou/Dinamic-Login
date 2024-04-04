@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../html/styles.css">
+    <link rel="stylesheet" href="html/styles.css">
     <title>Genn</title>
 </head>
 <body>
@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <script src="../html/app.js"></script>
+    <script src="html/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </body>
 </html>
