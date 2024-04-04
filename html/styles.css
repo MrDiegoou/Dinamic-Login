@@ -7,13 +7,14 @@
 }
 
 body{
-    width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: wheat;
-    border: 4px solid black; /* Añadí un borde negro al contenedor principal */
+    min-height: 100vh;
+    width: 100%;
+    background: url('../img/background.png') no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .box{
@@ -28,7 +29,7 @@ body{
 }
 
 .qr-header h1{
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     color: black;
     margin-bottom: 24px;
